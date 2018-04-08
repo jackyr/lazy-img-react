@@ -3,7 +3,7 @@ Simple, efficient and easy-to-use lazy load image react component. (supports reg
 
 简单、高效、易用的图片懒加载react组件。（支持区域滚动懒加载）
 
-## [Demo](https://jackyr.github.io/lazy-img-react/site/index.html)
+## [Demo](https://jackyr.github.io/lazy-img-react/site/)
 
 ## Browser compatibility
 Supports IE9+ / Android4.4+ / etc. ES5 enviroment.
