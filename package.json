@@ -6,6 +6,7 @@
   "scripts": {
     "build": "babel src -d lib",
     "clean": "rm -rf ./lib",
+    "site": "webpack --output-path site",
     "dev": "webpack-dev-server",
     "lint": "eslint --ext .js,.jsx src/",
     "prepublish": "npm run lint && npm run clean && npm run build",
