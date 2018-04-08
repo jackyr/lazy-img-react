@@ -73,7 +73,7 @@ Reference of the container. Don't forget this param when in region scroll mode. 
 区域滚动时图片所属的容器ref引用。默认为：null
 
 
-## demo && testing
+## testing
 ```sh
 git clone git@github.com:jackyr/lazy-img-react.git
 cd lazy-img-react
