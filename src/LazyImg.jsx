@@ -1,8 +1,8 @@
 import React from 'react';
 import { findDOMNode } from 'react-dom';
 import PropTypes from 'prop-types';
-import Base from './base.jsx';
-import Container from './container.jsx';
+import Base from './base';
+import Container from './container';
 
 class LazyImg extends Base {
   static propTypes = {

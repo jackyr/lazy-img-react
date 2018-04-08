@@ -1,7 +1,7 @@
 import React from 'react';
 import { findDOMNode } from 'react-dom';
 import debounce from 'lodash.debounce';
-import Base from './base.jsx';
+import Base from './base';
 
 class Container extends Base {
   constructor(props) {

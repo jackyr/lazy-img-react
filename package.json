@@ -1,6 +1,6 @@
 {
   "name": "lazy-img-react",
-  "version": "1.0.0-beta",
+  "version": "1.0.0-beta.1",
   "description": "Simple, efficient and easy-to-use lazy load image react component. (supports region scroll)",
   "main": "lib/LazyImg.js",
   "scripts": {

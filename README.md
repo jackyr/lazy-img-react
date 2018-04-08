@@ -58,7 +58,7 @@ Image src. default: ''
 #### `placeholder`: PropTypes.string
 The placeholder image src. It will show before the image loads or scrolls into view. default: A block with 'background:#cccccc'
 
-图片加载前的占位图路径。默认为：以#cccccc为底色的区块
+图片加载前的占位图路径。默认为：以#cccccc为底色的区块
 
 #### `offset`: PropTypes.number
 Lazy load leads offset. default: 0

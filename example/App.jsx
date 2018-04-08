@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LazyImg from '../src/index.jsx';
+import LazyImg from '../src/LazyImg';
 import './App.css';
 
 const LazyContainer = LazyImg.Container;
@@ -37,7 +37,14 @@ class App extends Component {
           </h3>
           <LazyContainer ref={el => this.container = el} className="container">
             {this.state.images2.map((v, i) => {
-              return <LazyImg key={i} container={this.container} offset={50} src={v} />;
+              return (<div className="img-wrapper" key={i}>
+                <LazyImg
+                  container={this.container}
+                  offset={50}
+                  src={v}
+                  placeholder="https://gw.alipayobjects.com/zos/rmsportal/cJoWfdknfiikQwVCeAFW.png"
+                />
+              </div>);
             })}
           </LazyContainer>
         </div>
