@@ -1,0 +1,9 @@
+build/
+src/
+example/
+.babelrc
+.eslintignore
+.eslintrc
+.gitignore
+.npmignore
+webpack.config.js
