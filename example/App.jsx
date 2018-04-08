@@ -14,7 +14,7 @@ class App extends Component {
   }
   generateImage(num) {
     return Array(num).join(',').split(',').map(() => {
-      return `./images/${Math.floor(Math.random() * 10) + 1}.jpg?r=${Math.random()}`;
+      return `https://raw.githubusercontent.com/jackyr/lazy-img-react/master/example/images/${Math.floor(Math.random() * 10) + 1}.jpg?r=${Math.random()}`;
     });
   }
   render() {
